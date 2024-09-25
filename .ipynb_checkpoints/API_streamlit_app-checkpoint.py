@@ -61,10 +61,10 @@ with container:
         answer = None
         with st.spinner("Searching for the answer..."):
             # You will need to update the "post" and "auth" details for the model you have deployed
-            response = requests.post("https://shipcom-demo.domino-eval.com:443/models/667c6b81f814692aa3141d9f/latest/model",
+            response = requests.post("https://se-demo.domino.tech:443/models/66f41897899f67724301bfc2/latest/model",
                 auth=(
-                    "iFXAUS7MEIq2gIsOQxUcD3YcENn2AMHpIRvx4vpdXkrf5QRsh1D8RgMXCGau51IS",
-                    "iFXAUS7MEIq2gIsOQxUcD3YcENn2AMHpIRvx4vpdXkrf5QRsh1D8RgMXCGau51IS"
+                    "HFUDhM4mGjCUpY7xpYRolrtod7RUZYYSjrx6Lz6qkFZOMXH3hs0Bs720bCSWkXmV",
+                    "HFUDhM4mGjCUpY7xpYRolrtod7RUZYYSjrx6Lz6qkFZOMXH3hs0Bs720bCSWkXmV"
                 ),
                 json={
                     # This is the data payload for the API
